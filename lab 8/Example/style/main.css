@@ -1,0 +1,55 @@
+/*the standard CSS comments will show up on the output
+.css file*/
+.list {
+  /*formats the list*/
+}
+.list ul {
+  font-size: 30px;
+  font-family: Georgia;
+  color: #1a24b8;
+}
+.list ul li {
+  font-size: 24px;
+}
+.list .standard {
+  color: #b8ae1a;
+}
+.list .different {
+  color: #e5db47;
+  background-color: #b8ae1a;
+}
+
+/*media query for grid*/
+@media screen and (max-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    background-color: #7d7f9d;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #7d7f9d;
+  }
+}
+/*formats the grid item*/
+.grid-item {
+  background-color: #969696;
+  border: 1px solid #867d9d;
+  margin: 10px;
+}
+
+@media screen and (min-width: 500px) {
+  .content {
+    font-family: helvetica;
+    color: red;
+    font-size: 15px;
+  }
+}
+.content {
+  font-family: helvetica;
+  color: red;
+  font-size: 15px;
+}/*# sourceMappingURL=main.css.map */

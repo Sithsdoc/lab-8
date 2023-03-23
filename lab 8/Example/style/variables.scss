@@ -1,0 +1,21 @@
+//typography
+$ulsize: 30px;
+$lisize: round($ulsize*.8);
+$ulfont: Georgia;
+
+//colors
+$ulcolor: #1a24b8;
+$licolor: complement($ulcolor);
+$licolordiff: invert($ulcolor);
+$bgcolorgrit: invert(grayscale($ulcolor));
+$bgcolorgr: mix($ulcolor, $bgcolorgrit, 20);
+$bgcolorborder: adjust-hue($bgcolorgr, 20);
+
+//screensize
+$screen: 1000px;
+
+//changes the font size, the font, and the color of the font
+$txsize: 15px;
+$nxcolor: red;
+$nxfont: helvetica;
+
